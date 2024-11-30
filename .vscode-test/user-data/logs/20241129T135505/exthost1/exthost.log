@@ -1,0 +1,17 @@
+[2024-11-29 14:19:37.803] [exthost] [info] extension host started
+[2024-11-29 14:19:37.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2024-11-29 14:19:37.872] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2024-11-29 14:19:37.937] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2024-11-29 14:19:37.938] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/debug-auto-launch/dist/extension
+[2024-11-29 14:19:37.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2024-11-29 14:19:37.951] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/git/dist/main
+[2024-11-29 14:19:38.135] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2024-11-29 14:19:38.135] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2024-11-29 14:19:38.362] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2024-11-29 14:19:38.362] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/github-authentication/dist/extension.js
+[2024-11-29 14:19:38.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2024-11-29 14:19:38.517] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.60.0/resources/app/extensions/github/dist/extension.js
+[2024-11-29 14:19:38.527] [exthost] [info] eager extensions activated
+[2024-11-29 14:19:38.527] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/GitHub/HexProperty/hexproperty/hex-quick-responder/out/test/suite/index
+[2024-11-29 14:19:38.687] [exthost] [info] extension host terminating: test runner requested exit with code 1
+[2024-11-29 14:19:38.687] [exthost] [info] exiting with code 1

@@ -1,0 +1,48 @@
+2024-11-29 13:18:02.148 [info] Started initializing default profile extensions in extensions installation folder. file:///c%3A/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/extensions
+2024-11-29 13:18:02.149 [info] Started local extension host with pid 17900.
+2024-11-29 13:18:02.609 [info] Completed initializing default profile extensions in extensions installation folder. file:///c%3A/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/extensions
+2024-11-29 13:18:02.799 [info] Loading development extension at c:\GitHub\HexProperty\hexproperty\hex-quick-responder
+2024-11-29 13:18:03.001 [info] Settings Sync: Updating due to initialize
+2024-11-29 13:18:03.001 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-29 13:18:03.086 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-29 13:18:10.027 [info] Hex Quick Responder is now active!
+2024-11-29 13:18:10.793 [info] [0m%s%s[0m  
+2024-11-29 13:18:10.801 [info] [0m%s%s[0m    Hex Quick Responder Extension Test Suite
+2024-11-29 13:18:10.805 [info]   [32m  ✔[0m[90m %s[0m Extension should be present
+2024-11-29 13:18:10.816 [info]   [32m  ✔[0m[90m %s[0m Should register commands
+2024-11-29 13:18:10.822 [info]   [32m  ✔[0m[90m %s[0m Should load configuration
+2024-11-29 13:18:10.831 [info]   [31m  %d) %s[0m 1 Should handle dialog responses
+2024-11-29 13:18:10.833 [info]   [31m  %d) %s[0m 2 Should add new response mapping
+2024-11-29 13:18:10.840 [info]   [31m  %d) %s[0m 3 Should handle window state changes
+2024-11-29 13:18:10.843 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 3 43ms
+2024-11-29 13:18:10.843 [info] [31m  %d failing[0m 3
+2024-11-29 13:18:10.844 [info] [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m 1 Hex Quick Responder Extension Test Suite
+       Should handle dialog responses TypeError: Descriptor for property get is non-configurable and non-writable   	at assertValidPropertyDescriptor (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:138:15)
+  	at Function.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:89:5)
+  	at Sandbox.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\sandbox.js:454:39)
+  	at Context.<anonymous> (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\out\test\suite\extension.test.js:55:33)
+  	at process.processImmediate (node:internal/timers:483:21)
+2024-11-29 13:18:10.846 [info] [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m 2 Hex Quick Responder Extension Test Suite
+       Should add new response mapping TypeError: Descriptor for property get is non-configurable and non-writable   	at assertValidPropertyDescriptor (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:138:15)
+  	at Function.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:89:5)
+  	at Sandbox.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\sandbox.js:454:39)
+  	at Context.<anonymous> (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\out\test\suite\extension.test.js:82:33)
+  	at process.processImmediate (node:internal/timers:483:21)
+2024-11-29 13:18:10.848 [info] [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m 3 Hex Quick Responder Extension Test Suite
+       Should handle window state changes TypeError: Descriptor for property get is non-configurable and non-writable   	at assertValidPropertyDescriptor (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:138:15)
+  	at Function.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\stub.js:89:5)
+  	at Sandbox.stub (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\sinon\lib\sinon\sandbox.js:454:39)
+  	at Context.<anonymous> (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\out\test\suite\extension.test.js:98:33)
+  	at process.processImmediate (node:internal/timers:483:21)
+2024-11-29 13:18:10.850 [error] Error: 3 tests failed.
+	at c:\GitHub\HexProperty\hexproperty\hex-quick-responder\out\test\suite\index.js:51:28
+	at done (c:\GitHub\HexProperty\hexproperty\hex-quick-responder\node_modules\mocha\lib\mocha.js:1028:7)

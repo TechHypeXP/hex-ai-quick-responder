@@ -1,0 +1,9 @@
+2024-11-29 13:31:33.897 [info] [main] Log level: Info
+2024-11-29 13:31:33.897 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2024-11-29 13:31:33.897 [info] [main] Validating found git in: "C:\Program Files (x86)\Git\cmd\git.exe"
+2024-11-29 13:31:33.897 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2024-11-29 13:31:33.897 [info] [main] Validating found git in: "C:\Users\kelly\AppData\Local\Programs\Git\cmd\git.exe"
+2024-11-29 13:31:34.131 [info] [main] Validating found git in: "D:\Users\Kelly\00 Portables\00 - Portable - Git\cmd\git.exe"
+2024-11-29 13:31:34.393 [info] [main] Using git "2.47.0.windows.2" from "D:\Users\Kelly\00 Portables\00 - Portable - Git\cmd\git.exe"
+2024-11-29 13:31:34.400 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-29 13:31:34.404 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

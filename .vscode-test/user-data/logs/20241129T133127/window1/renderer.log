@@ -1,0 +1,9 @@
+2024-11-29 13:31:29.737 [info] Started local extension host with pid 24732.
+2024-11-29 13:31:30.166 [info] Loading development extension at c:\GitHub\HexProperty\hexproperty\hex-quick-responder
+2024-11-29 13:31:30.429 [info] Settings Sync: Updating due to initialize
+2024-11-29 13:31:30.430 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-29 13:31:30.432 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-29 13:31:34.892 [info] Hex Quick Responder is now active!
+2024-11-29 13:31:35.181 [info] [0m%s%s[0m  
+2024-11-29 13:31:35.185 [info] [0m%s%s[0m    Hex Quick Responder Extension Test Suite
+2024-11-29 13:31:36.474 [info]   [32m  ✔[0m[90m %s[0m Extension should be present and active

@@ -1,0 +1,5 @@
+2024-11-29 13:31:27.995 [info] update#setState disabled
+2024-11-29 13:31:27.996 [info] update#ctor - updates are disabled by the environment
+2024-11-29 13:31:27.996 [error] Error: Error mutex already exists
+    at Eu.U (file:///C:/GitHub/HexProperty/hexproperty/hex-quick-responder/.vscode-test/vscode-win32-x64-archive-1.95.3/resources/app/out/main.js:81:18090)
+2024-11-29 13:31:36.768 [info] Extension host with pid 24732 exited with code: 0, signal: unknown.
