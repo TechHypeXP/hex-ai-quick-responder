@@ -1,9 +1,39 @@
-.vscode-test/
+# Node modules
 node_modules/
-*.log
-Thumbs.db
-.DS_Store
-node_modules/
-.vscode-test/
+npm-debug.log
+yarn-error.log
+
+# Build output
 dist/
+out/
 build/
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Backup files
+*.bak
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Exclude specific file types
+*.tgz
+*.zip
+
+# Exclude all test files (if applicable)
+test/
+tests/
+__tests__/
