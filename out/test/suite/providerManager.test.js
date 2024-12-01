@@ -46,13 +46,14 @@ suite('ProviderManager Integration Test Suite', () => {
     const clock = sinon_1.default.useFakeTimers();
     setup(() => {
         providerManager = providerManager_1.ProviderManager.getInstance();
-        // Stub fetch to control API responses
-        fetchStub = sinon_1.default.stub(globalThis, 'fetch');
+        // Stub fetch
+        fetchStub = sinon_1.default.stub();
+        globalThis.fetch = fetchStub;
     });
     teardown(() => {
         clock.restore();
-        fetchStub.restore();
         sinon_1.default.restore();
+        delete globalThis.fetch;
     });
     test('successful API call with rate limiting', async () => {
         const providerId = 'openrouter';

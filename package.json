@@ -1,8 +1,8 @@
 {
-  "name": "Hex-AI-Quick-Responder",
+  "name": "hex-ai-quick-responder",
   "displayName": "Hex AI Quick Responder",
-  "description": "HexProperty's AI Automated Dialog Response System",
-  "version": "1.4.0",
+  "description": "AI-Powered VS Code Extension",
+  "version": "1.5.0",
   "publisher": "HexProperty",
   "engines": {
     "vscode": "^1.60.0"
@@ -13,7 +13,7 @@
   "activationEvents": [
     "onStartupFinished"
   ],
-  "main": "./out/extension.js",
+  "main": "dist/extension.js",
   "contributes": {
     "commands": [
       {
@@ -85,23 +85,25 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js",
+    "test": "mocha -r ts-node/register 'test/**/*.test.ts'",
     "test:unit": "mocha --require ts-node/register 'src/test/**/*.test.ts'",
-    "coverage": "nyc npm run test:unit"
+    "coverage": "nyc npm test"
   },
   "dependencies": {
     "@types/node-fetch": "^2.6.12",
     "dotenv": "^16.3.1",
+    "inversify": "^6.1.5",
     "node-fetch": "^2.7.0",
-    "openai": "^4.0.0"
+    "openai": "^4.0.0",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/glob": "^7.2.0",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^16.x.x",
-    "@types/sinon": "^17.0.0",
-    "@types/vscode": "^1.60.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.0",
+    "@types/sinon": "^17.0.1",
+    "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
     "@vscode/test-electron": "^2.3.8",

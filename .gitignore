@@ -9,7 +9,6 @@ out/
 build/
 
 # IDE and editor directories
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -33,7 +32,10 @@ logs/
 *.tgz
 *.zip
 
-# Exclude all test files (if applicable)
+# Test exclusions
 test/
 tests/
 __tests__/
+# But include our VS Code extension tests
+!src/test/
+!src/test/**/*

@@ -61,11 +61,13 @@ suite('OpenRouterApi Test Suite', () => {
             }
         });
         // Stub fetch
-        fetchStub = sinon_1.default.stub(globalThis, 'fetch');
+        fetchStub = sinon_1.default.stub();
+        globalThis.fetch = fetchStub;
         api = new openRouterApi_1.OpenRouterApi();
     });
     teardown(() => {
         sinon_1.default.restore();
+        delete globalThis.fetch;
     });
     test('processes messages with correct API parameters', async () => {
         fetchStub.resolves((0, types_1.createMockResponse)(true, {

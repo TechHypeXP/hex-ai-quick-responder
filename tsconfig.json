@@ -14,7 +14,10 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "declaration": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": ["node", "mocha", "reflect-metadata"]
     },
     "include": [
         "src"
